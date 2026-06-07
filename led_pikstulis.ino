@@ -8,11 +8,11 @@
 Adafruit_NeoPixel pixel(NUM_PIXELS, PIN_NEOPIXEL, NEO_GRB + NEO_KHZ800);
 
 // --- WIFI IESTATĪJUMI ---
-const char* ssid     = "LabLab"; 
-const char* password = "bonis182";    
+const char* ssid     = "wifi_SSID"; 
+const char* password = "wifi_PASS";    
 
 // --- n8n WEBHOOK URL ---
-const char* n8n_url = "https://via-mt2026.app.n8n.cloud/webhook/SIGNALS";
+const char* n8n_url = "https://N8N/Webhook/12213213123";
 
 unsigned long pedejaisMers = 0;
 const long intervals = 5000; // Cik bieži prasīt datus (milisekundēs) -> 5 sekundes
