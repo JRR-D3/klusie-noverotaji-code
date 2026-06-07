@@ -20,11 +20,11 @@
 // ============================================================
 // TODO: ievieto savus WiFi credentials (tikai 2.4 GHz tīkli!)
 // ============================================================
-#define WIFI_SSID "JRR hotspot"
-#define WIFI_PASSWORD "434332JRR"
+#define WIFI_SSID "WiFi_SSID"
+#define WIFI_PASSWORD "WiFi_PASS"
 
 // n8n webhook URL un detekcijas parametri
-#define WEBHOOK_URL "https://via-mt2026.app.n8n.cloud/webhook/DUMU_CAM"
+#define WEBHOOK_URL "https://n8n/webhook/12123132312"
 #define SMOKE_THRESHOLD 0.7f // probability slieksnis (0.0-1.0)
 #define UPLOAD_COOLDOWN_MS 30000UL // minimums 30 sek starp uploadiem
 
